@@ -1,0 +1,119 @@
+.mainContainer {
+  /* background-color: red; */
+  margin: 0px 80px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftDashboard {
+  width: 20%;
+  background-color: #2d3e4e;
+  color: white;
+  box-shadow: 0px 0px 8px 8px rgb(204, 201, 201);
+}
+
+.rightDashboard {
+  width: 78%;
+  border: 1px solid rgb(204, 201, 201);
+  box-shadow: 0px 0px 8px 8px rgb(204, 201, 201);
+}
+
+.picNameContainer {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.profilePic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nameAuthor {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.designationStyle {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(199, 192, 192);
+}
+
+.optionRoutes {
+  margin: 30px 0px;
+}
+
+.optionsStyles {
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.tabOpened {
+  background-color: #1b252e;
+}
+
+.fourCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.fourCards {
+  margin: 10px;
+  padding: 40px;
+  width: 22%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.firstCard {
+  background-color: #5fce9b;
+}
+.secondCard {
+  /* background-color: #66b5d6; */
+  background-color: #eeca5a;
+}
+.thirdCard {
+  background-color: #e87352;
+}
+.fourthCard {
+  background-color: #66b5d6;
+}
+
+.cardLebels {
+  color: white;
+}
+
+.tablePart {
+  margin: 10px 20px;
+}
+
+.submissionsHeading {
+  margin: 0px;
+  padding: 10px;
+  background-color: #2d3e4e;
+  color: white;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.tableHeight {
+    height: 45vh;
+}
+
+.emptyTable {
+  text-align: center;
+  margin-top: 30px;
+  height: 35vh;
+}
+
+.editDialogcontent {
+  text-align: center;
+}
