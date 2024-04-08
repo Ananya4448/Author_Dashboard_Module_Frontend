@@ -1,0 +1,20 @@
+.signedHeaderStyle {
+    height: 9.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    box-shadow: 0px 0px 8px 8px rgb(204, 201, 201);
+    border: 1px solid rgb(204, 201, 201);
+    background-color: white;
+}
+
+.rightNavMenu {
+    display: flex;
+    align-items: center;
+}
+
+.rightMenuOption {
+    margin-left: 20px;
+    cursor: pointer;
+}
