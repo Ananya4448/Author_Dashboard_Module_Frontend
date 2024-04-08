@@ -1,0 +1,38 @@
+.submissionFormContainer {
+    margin: 20px 80px;
+    padding: 10px;
+    border: 1px solid lightGrey;
+}
+
+.goBackStyle {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.formStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.formPartitions {
+    width: 32%;
+}
+
+.leftFieldsContainers {
+    margin: 20px 0px;
+}
+
+.leftFields {
+    width: 100%;
+}
+
+.abstractFieldStyle {
+    width: 100%;
+}
+
+.submitStyle {
+    text-align: end;
+}
