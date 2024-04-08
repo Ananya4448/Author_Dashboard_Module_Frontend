@@ -1,0 +1,91 @@
+.bgImageSignin {
+  background: url("../../images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bodyDiv {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  /* height: 100px; */
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 8px 8px rgb(204, 201, 201);
+}
+
+.pictureContainer {
+  width: 50%;
+}
+
+.formContainer {
+  width: 50%;
+  border-left: 1px solid lightgrey;
+  /* border: 1px solid black; */
+}
+
+.signinHeader {
+  margin: 0px;
+  background-color: #0796ce;
+  padding: 20px 0px;
+  color: white;
+}
+
+.formDiv {
+    margin: 30px 10px;
+}
+
+.buttonDiv {
+    margin: 30px 10px 10px 10px;
+}
+
+.signinfieldStyle {
+    margin: 20px 0px;
+}
+
+.fieldsWidth {
+    width: 90%;
+    height: 50px;
+}
+
+.forgotDetails {
+    margin: 0px 10px 30px 10px;
+}
+
+.signUpText {
+    color: #0796ce;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.signUpText:hover {
+    text-decoration: underline;
+}
+
+.forgotPasswordText {
+    margin-top: 8px;
+    color: #0796ce;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.forgotPasswordText:hover {
+    text-decoration: underline;
+}
+
+.passwordRule {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #0796ce;
+  text-decoration: underline;
+}
